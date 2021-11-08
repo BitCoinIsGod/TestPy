@@ -7,4 +7,4 @@ portfolio.append("ETH")
 portfolio.insert(1,"REP")
 portfolio[0] = "ccc"  
 
-print(portfolio[:5]) 
+print(portfolio[:5])  
