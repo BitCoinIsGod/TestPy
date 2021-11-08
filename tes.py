@@ -1,8 +1,10 @@
-coin = "bitCoin"
-et = "이더"
-coin = "repple123111"
-coin = et
-fmt = "내가 보유한 1321코인은 "+ coin + "입테스니다"
-print(fmt)       
- 
-  
+portfolio = []
+
+portfolio.append("BTC")
+portfolio.append("SOL")
+portfolio.append("ETH")
+
+portfolio.insert(1,"REP")
+portfolio[0] = "ccc"
+
+print(portfolio[:5])
