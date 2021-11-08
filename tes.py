@@ -1,2 +1,8 @@
-print("bhsss pyppp")
-print("git commist")
+coin = "bitCoin"
+et = "이더"
+coin = "repple123111"
+coin = et
+fmt = "내가 보유한 1321코인은 "+ coin + "입니다"
+print(fmt)       
+
+  
