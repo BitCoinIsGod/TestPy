@@ -1,2 +1,2 @@
 print("bhsss pyppp")
-print("git commit")
+print("git commist")
