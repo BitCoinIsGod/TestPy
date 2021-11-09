@@ -1,3 +1,5 @@
-from coin import * 
+import requests
 
-print(get_open_price("BTC"))
+resp = requests.get("https://api.bithumb.com/public/ticker/BTC") 
+print(resp.content)
+ 
