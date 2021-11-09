@@ -1,5 +1,7 @@
-import requests
+class MyClass:
+    def add(self, a, b):
+        return a + b
 
-resp = requests.get("https://api.bithumb.com/public/ticker/BTC") 
-print(resp.content)
- 
+obj = MyClass()
+ret = obj.add(3, 4)
+print(ret)
